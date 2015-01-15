@@ -1,0 +1,23 @@
+{
+  "name": "data-collaboration",
+  "version": "0.1.0",
+  "description": "Collaboration tool for data analysis",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bclark8923/data-collaboration.git"
+  },
+  "keywords": [
+    "Data",
+    "Collaboration"
+  ],
+  "author": "Brian Clark",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bclark8923/data-collaboration/issues"
+  },
+  "homepage": "https://github.com/bclark8923/data-collaboration"
+}
