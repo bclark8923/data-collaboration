@@ -11,6 +11,9 @@
     "express": "~4.9.x",
     "pg": "4.x"
   },
+  "engines": {
+    "node": "0.10.x"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/bclark8923/data-collaboration.git"
