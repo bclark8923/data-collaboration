@@ -4,7 +4,12 @@
   "description": "Collaboration tool for data analysis",
   "main": "index.js",
   "scripts": {
-    "test": "grunt test"
+    "test": "grunt test",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "~4.9.x",
+    "pg": "4.x",
   },
   "repository": {
     "type": "git",
@@ -15,7 +20,7 @@
     "Collaboration"
   ],
   "author": "Brian Clark",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/bclark8923/data-collaboration/issues"
   },
