@@ -1,0 +1,52 @@
+<!DOCTYPE html>  
+<html lang="en" ng-app="data-collaboration">  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Optimize mobile viewport -->
+
+    <title>Data Collaboration</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- bower js -->
+    <script src="/bower_components/angular/angular.min.js"></script>
+    <script src="/bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+
+    <!-- app configuration -->
+    <script src="/app/app.js"></script>
+    <script src="/app/routes.js"></script>
+
+    <!-- auth module -->
+    <script src="/app/modules/auth/authController.js"></script>
+    <script src="/app/modules/auth/authService.js"></script>
+
+    <!-- wrapper main module -->
+    <script src="/app/modules/main/mainController.js"></script>
+    <script src="/app/modules/main/mainService.js"></script>
+
+    <!-- organization module -->
+    <script src="/app/modules/organization/organizationController.js"></script>
+    <script src="/app/modules/organization/organizationService.js"></script>
+
+    <!-- home module -->
+    <script src="/app/modules/home/homeController.js"></script>
+    <script src="/app/modules/home/homeService.js"></script>
+
+    <!-- HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- styles -->
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link href="/assets/css/style.css" rel="stylesheet">
+    <link href="/assets/css/organization.css" rel="stylesheet">
+    <link href="/assets/css/auth.css" rel="stylesheet">
+    <link href="/assets/css/landingpage.css" rel="stylesheet">
+    <link href="/assets/css/app.css" rel="stylesheet">
+
+  </head>
+  <body>
+    <div style="height:100%;" ui-view></div>
+  </body>
+</html>  

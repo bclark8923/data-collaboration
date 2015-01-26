@@ -1,0 +1,22 @@
+<div>
+	<div class="authError" ng-style="{display: error ? none : block}">
+		{{error}}
+	</div>
+	<form ng-submit="signup()">
+		<div>
+			<input class="authInput" placeholder="Full Name" type="text" ng-model="name"></input>
+		</div>
+		<div>
+			<input class="authInput" placeholder="Email" type="email" ng-model="email"></input>
+		</div>
+		<div>
+			<input class="authInput" placeholder="Password" type="password" ng-model="password"></input>
+		</div>
+		<div>
+			<button type="submit" class="btn authButton">SIGN UP</button>
+		</div>
+	</form>
+	<div class="authFunctions" style="text-align:center;">
+		<span><a ui-sref="auth.login">LOGIN</a></span>
+	</div>
+</div>

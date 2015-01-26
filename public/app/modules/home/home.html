@@ -1,0 +1,17 @@
+<div class="main">
+	<div class="askQuestion">
+		<div class="questionHeader">What data related question do you have?</div>
+		<div class="question">
+			<input class="questionInput" type="text" placeholder="What was our revenue last year" ng-model="vm.question"></input>
+		</div>
+		<div class="questionFunctions">
+			<button class="btn btn-custom" ng-click="addQuestion()">Submit Question</button>
+		</div>
+	</div>
+	<div class="questions">
+		<div class="questionHeader">Organization's Questions</div>
+		<div ng-repeat="question in vm.questions">
+			<a ui><div class="questyionStyling">{{question.question}}</div></a>
+		</div>
+	</div>
+</div>

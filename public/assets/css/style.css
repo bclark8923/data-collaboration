@@ -1,0 +1,17 @@
+html, body {
+	height: 100%;
+}
+
+button, input, button:active, input:active, button:focus, input:focus {
+	outline: none !important;
+}
+
+.btn-custom {
+	color: white;
+	background-color: rgb(25, 174, 194);
+}
+
+.btn-custom:hover {
+	color: white;
+	background-color: rgb(20, 130, 145);
+}

@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "datacollab",
+    "password": "123456",
+    "database": "datacollab",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "ktxjudpdqavdpo",
+    "password": "0Y6apuoHR3f7VLbkXHm93u_KVQ",
+    "database": "daco8m36uc6ke3",
+    "host": "ec2-54-83-33-196.compute-1.amazonaws.com:5432",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}

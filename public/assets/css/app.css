@@ -1,0 +1,53 @@
+.main {
+	padding-top: 50px;
+}
+
+.organizationName {
+	float: left;
+	margin-top: 5px;
+	margin-left: 20px;
+}
+
+.logout {
+	float: right;
+	margin-right: 20px;
+	margin-top: 5px;
+}
+
+.questionHeader {
+	font-size: 24px;
+	font-weight: 100;
+	color: gray;
+	text-align: center;
+}
+
+.question {
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 20px;
+	padding: 20px;
+	max-width: 500px;
+	width: 100%;
+}
+
+.questionInput {
+	width: 100%;
+	height: 40px;
+	border: none;
+	border-bottom: 1px solid black;
+	padding-bottom: 0px;
+	/*line-height: 0px;*/
+	font-size: 26px;
+}
+
+.questionFunctions {
+	text-align: center;
+}
+
+.questions {
+	margin-top: 40px;
+}
+
+.questyionStyling {
+	text-align: center;
+}

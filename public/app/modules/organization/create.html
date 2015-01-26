@@ -1,0 +1,17 @@
+<div style="height:100%;" data-ng-controller="OrganizationController">
+	<div class="main">
+		<div class="organizationHeader">What is your organization's name?</div>
+		<form ng-submit="create()">
+			<div class="organizationInputContainer">
+				<input class="organizationInput" type="text" placeholder="Organization Name" ng-model="createName"></input>
+			</div>
+			<div class="organizationInputContainer">
+				<input class="organizationInput organizationDomainInput" type="text" placeholder="organization-name" ng-model="createDomain"></input>
+				<span style="position:absolute;left:36px;top:9px;">app.com/</span>
+			</div>
+			<div class="createOrganizationFunctions">
+				<button type="submit" class="btn btn-custom">Create Organization</button>
+			</div>
+		</form>
+	</div>
+</div>
